@@ -1,0 +1,184 @@
+body{
+    font-family: Arial Black, Gadget, sans-serif;
+    background-color: honeydew;
+}
+
+.main-container{
+    width: 100%;
+}
+ 
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color:black;
+    height: 100px;
+    opacity: .89;
+}
+
+.menu{
+    min-width: 200px;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 330px;
+}
+
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+#banner-image{
+    opacity: 0.65;
+    width: 100%
+    
+}
+
+.banner-title{
+    position: absolute;
+    top: 50%;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 730px;
+    opacity: .75;
+
+}
+
+.banner-subtitle{
+    position: absolute;
+    top:60%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 700px;
+    opacity: .75;
+}
+
+.skill-container{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.skill1{
+    display: flex;
+    width: 50%;
+    margin-top: 40px;
+    justify-content: left;
+}
+
+.skill2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.skill3{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: right;
+    
+}
+
+#image1{
+    width: 300px;
+    height: 300px;
+    margin-right: 450px;
+
+}
+
+#image2{
+    width: 300px;
+    height: 300px;
+    margin-right: 450px;
+    margin-left: 150px;
+}
+
+#image3{
+    width: 300px;
+    height: 300px;
+    /* Doesnt need a margin its fine*/    
+}
+
+#skills-text{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: -80px;
+    margin-left: -245px;
+    font-size: 50px;
+    opacity: .75;
+}
+
+.portfolio-heading{
+    display: flex;
+    widows: 300px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.portfolio-title{
+    position: absolute;
+    margin-left: -220px;
+    opacity: .75;
+    margin-top: 400px;
+}
+
+.gallery-item{
+    margin-top: 600px;
+    margin-left: -725px;
+}
+
+.gallery-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+a:active{
+    color: white;
+    text-decoration: none;
+}
+/* Everything above this comment is for the index.html page (landing page)*/
+
+#about-text{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    font-size: 2.5em;
+}
+
+#twitter{
+    display: flex;
+    margin-left: 800px;
+    margin-top: 500px;
+    opacity: .75;
+}
+
+#twitter-text{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 430px;
+    margin-top: 30px;
+    font-size: 2.5em;
+}
